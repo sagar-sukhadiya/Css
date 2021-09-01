@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gradiant-color</title>
+    <style>
+        .box1{
+            /* background-image: linear-gradient(45deg,orange,white,green); */
+            background-image: linear-gradient(rgba(255,0,0,1), rgba(0,255,0,1));
+            width: 100vw;
+            height:50vh;
+            border: 1px solid black;
+            
+        }
+        .box2{
+            /* background-image: linear-gradient(45deg,orange,white,green); */
+            /* background-image: radial-gradient(ellipse at top ,orange 10% ,white 30% ,green 10%); */
+            background-image: radial-gradient(ellipse at bottom , orange , transparent),
+             radial-gradient(ellipse at top , black , transparent),
+             radial-gradient(ellipse at left , red , transparent);
+            width: 100vw;
+            height:50vh;
+            border: 1px solid black;
+
+            
+        }
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+
+    </div>
+
+    <div class="box2">
+       
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image sprites</title>
+    <style>
+        ul.menu {
+            list-style-type: none;
+        }
+
+        ul.menu li {
+            padding: 5px;
+            font-size: 16px;
+            font-family: "Trebuchet MS", Arial, sans-serif;
+        }
+
+        ul.menu li a {
+            height: 62px;
+            line-height: 60px;
+            display: inline-block;
+            padding-left: 117px;
+            /* To sift text off the background-image */
+            color: #3E789F;
+            background: url("s1.png") no-repeat;
+            /* As all link share the same background-image */
+        }
+
+        ul.menu li.firefox a {
+            background-position: 0px 0px;
+        }
+
+        ul.menu li.chrome a {
+            background-position: 0px -125px;
+        }
+
+        ul.menu li.ie a {
+            background-position: 0px -250px;
+        }
+
+        ul.menu li.safari a {
+            background-position: 0px -374px;
+        }
+
+        ul.menu li.firefox a:hover {
+            background-position: 0 -58px;
+        }
+
+        ul.menu li.chrome a:hover {
+            background-position: 0 -187px;
+        }
+
+        ul.menu li.ie a:hover {
+            background-position: 0 -309px;
+        }
+
+        ul.menu li.safari a:hover {
+            background-position: 0 -434px;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <ul class="menu">
+        <li class="firefox"><a href="#">Firefox</a></li>
+        <li class="chrome"><a href="#">Chrome</a></li>
+        <li class="ie"><a href="#">Explorer</a></li>
+        <li class="safari"><a href="#">Safari</a></li>
+    </ul>
+
+</body>
+
+</html>

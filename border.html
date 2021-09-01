@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+    <style>
+        .div{
+            border: 2px solid black;
+            width: 50vw;
+            height: 40vh;
+            margin: 50px 0px 25px 45px;
+        }
+        .bord{
+            border-left: 150px solid red;
+            border-right: 100px solid red;
+            padding: 0px 0px 0px 10px;
+            display: flex;
+            justify-content: center;
+        }
+        .div p{
+            border-left: 10px solid green;
+            padding: 20px;
+        }
+        .box2{
+            margin: 50px auto;
+            padding: 20px;
+            border: 30px solid black;
+            width: 240px;
+            height: 240px;
+            border-image-source: url("border.jpg");
+            border-image-slice: 90;
+        }
+    </style>
+</head>
+<body>
+    <div class="div">
+    <h1 class="bord">Paregraph</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam placeat fugiat voluptatibus eum dignissimos expedita optio dicta consequuntur cupiditate harum aperiam blanditiis, voluptatem non quo, sequi facilis id. Natus alias, quo illo pariatur laborum reiciendis tempora! Iusto sapiente suscipit blanditiis.</p>
+    </div>
+
+    <div class="box2">
+        <h1>Paregraph</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam placeat fugiat voluptatibus eum dignissimos expedita optio </p>
+    </div>
+</body>
+</html>

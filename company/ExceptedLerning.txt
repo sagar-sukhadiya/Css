@@ -1,0 +1,76 @@
+1. What are different units for fonts and when to use what? 
+https://www.sitepoint.com/a-walkthrough-of-css-length-units-you-can-use-for-font-size/
+
+2. How to apply styles on various handlers like ID, class, input, div, span etc.
+http://web.simmons.edu/~grovesd/comm244/notes/week4/html-hooks
+
+3. How to style div and what is float for the div element?
+https://www.geeksforgeeks.org/how-to-float-three-div-side-by-side-using-css/
+
+4. How are the different positions (absolute/relative etc) possible and what is the impact of each of these? Be ready with an example.
+https://dzone.com/articles/css-position-relative-vs-position-absolute
+
+5. How can you get a div to appear in the middle of a page?
+https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/
+
+6. what is "image sprites" and what is the usage of it?
+https://www.tutorialrepublic.com/css-tutorial/css-sprites.php#:~:text=Sprites%20are%20two%2Ddimensional%20images,the%20image%20to%20be%20displayed.
+
+7. What is the difference between px, em and %?
+https://www.tutorialrepublic.com/css-tutorial/css-sprites.php#:~:text=Sprites%20are%20two%2Ddimensional%20images,the%20image%20to%20be%20displayed.
+
+8. What is Box Model?
+https://www.w3schools.com/css/css_boxmodel.asp
+
+9. What is the difference between Margin and Padding?
+https://blog.hubspot.com/website/css-margin-vs-padding#:~:text=In%20CSS%2C%20a%20margin%20is,the%20space%20inside%20an%20element.
+
+10. What type of positioning method used for an element?
+The position Property
+
+11. What is Favicon?
+https://www.seoptimer.com/blog/what-is-a-favicon/
+https://www.youtube.com/watch?v=AO-2svcO_5s
+
+12. Why CSS behaves differently on different browsers? List a few CSS attributes that wrack havoc?
+-
+
+13. What is BrowserStack and what is the usage of it?
+- BrowserStack is an Indian cloud web and mobile testing platform that provides developers with the ability to test their 
+websites and mobile applications across on-demand browsers, operating systems and real mo
+
+- Why do we need BrowserStack?
+Cross browser testing helps with that by pinpointing browser-specific compatibility errors so you can debug them quickly. It helps ensure
+that you're not alienating a significant part of your target audience–simply because your website does not work on their browser-OS.
+
+https://www.browserstack.com/cross-browser-testing
+
+14. How can you try out different CSS hacks?
+	<!DOCTYPE html>
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+    	<meta charset="UTF-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Css Hack</title>
+    	<style>
+        	h1{
+            		color: yellowgreen;
+        	}
+        	.first{
+            	color:rgb(9, 123, 151) !important;
+        	}
+        	#second{
+            	color: orange;
+        	}
+    	</style>
+	</head>
+	<body>
+    	<h1 class="first" id="second" style="color: orangered;">Hellow</h1>
+	</body>
+	</html>
+- https://www.appseconnect.com/top-css-hacks/
+- http://browserhacks.com/
+
+15. How do you include browser specific CSS file and CSS rules?

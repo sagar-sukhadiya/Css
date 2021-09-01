@@ -1,0 +1,27 @@
+/* body{
+    background-color: black;
+}
+#first{
+    color:yellow;
+}
+.second{
+    color: white;
+} */
+.red{
+    background-color: red;
+    color: green;
+    width: 50%;
+    height: 100px;
+    
+}
+#orange{
+    background-color: orange;
+    border: 1px solid black;
+}
+#white
+{
+    background-color: white;
+    border: 1px solid black;
+}
+
+

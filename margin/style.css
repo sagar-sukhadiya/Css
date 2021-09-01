@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.wrapper{
+    width: 600px;
+    margin: 50px auto;
+    
+}
+.div1{
+    border: 2px solid green;
+    width: 100%;
+    float: left;
+  
+    
+}
+.img{
+    /* margin: 30px;
+    
+  
+    margin: 22px 212px 0px;
+    float: left; */
+    float: left;
+    margin: 25px 0px 0px 25px;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+article{
+    /* margin: 25px 0px 0px 25px;
+    padding: 10px;
+    width: 550px; */
+    margin: 34px 0px 25px 183px;
+    padding: 10px;
+    width: 355;
+    
+    
+   
+}
